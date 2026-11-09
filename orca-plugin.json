@@ -1,0 +1,29 @@
+{
+  "manifestVersion": 2,
+  "id": "vesper-theme",
+  "name": "Vesper",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Peppermint and orange flavored dark theme, ported from the Vesper VS Code theme.",
+  "license": "MIT",
+  "engines": {
+    "orca": ">=1.4.246"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "vesper",
+        "title": "Vesper",
+        "path": "themes/vesper.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "vesper-terminal",
+        "title": "Vesper",
+        "path": "terminal/vesper.json"
+      }
+    ]
+  },
+  "capabilities": []
+}
